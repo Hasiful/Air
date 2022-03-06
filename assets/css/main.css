@@ -1,0 +1,225 @@
+.topcategory_section{
+    margin-top: 20px;
+    margin-bottom: 54px;
+}
+.top_category_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.top_category_single_item {
+    position: relative;
+    background-color: rgb(0 0 0 / 4%);
+}
+
+.single_product_wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 90px 65px 90px;
+}
+.simgle_product_thumbnil{
+    max-height: 160px;
+    max-width: 160px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.simgle_product_thumbnil img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    mix-blend-mode: darken;
+}
+.simgle_product_thumbnil4{
+    mix-blend-mode: difference;
+}
+.wish_list_and_cart{
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 11px;
+    z-index: 9;
+    transition: all .3s ease;
+}
+.wish_list_icon span,
+.cart_list_icon span{
+    display: flex;
+}
+.single_product_caption{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    transition: all linear 0.3s;
+    z-index: 2;
+}
+.product_caption_name {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--primaryColor);
+    line-height: 19px;
+}
+.product_caption_btn{
+    width: fit-content;
+    position: relative;
+    cursor: pointer;
+}
+.product_btn_all{
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, .5);
+    transition: linear all .3s;
+}
+.product_caption_btn:hover .product_btn_all{
+   color: var(--primaryColor);
+}
+.product_btn_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 5px);
+    transition: linear all .3s;
+}
+.product_caption_btn:hover .product_btn_arrow{
+    left: calc(100% + 15px);
+}
+
+
+.flashsale_section{
+    margin-bottom: 54px;
+}
+.flash_sale_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.flash_sale_item{
+    background-color: var(--bgColor);
+    position: relative;
+}
+.flash_sale_item_thumbnil {
+    padding: 15px 90px 10px 90px;
+}
+.flash_sale_item_thumbnil img{
+    width: 100%;
+    mix-blend-mode: darken;
+}
+.sale_badge {
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--seconDary);
+    font-weight: 600;
+    top: 15px;
+    left: 20px;
+}
+
+.flash_sale_item_caption{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.flash_sale_item_caption span {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.item_name{
+    color: var(--primaryColor);
+    margin-bottom: 5px;
+}
+.item_price{
+    color: var(--seconDary);
+}
+
+.wish_badge svg{
+    margin-bottom: 15px;
+}
+.wish_badge svg,
+.cart_badge svg{
+    display: block;
+}
+.flash_item_badge{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+/* 
+===================================
+      start  footer section
+===================================
+ */
+
+ .footer_section{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    background-color: var(--primaryColor);
+    display: none;
+ }
+ .footer_content{}
+ .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .footer_logo{
+     max-width: 50px;
+     width: 100%;
+     margin: 0px auto;
+ }
+ .footer_logo img{
+     width: 100%;
+ }
+
+ .footer_menu{
+     margin: 40px 0px;
+ }
+ .footer_menu ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+ }
+ .footer_menu ul li{}
+ .footer_menu ul li a{
+     font-size: 14px;
+     color: #FFFFFF;
+     line-height: 24px;
+     font-weight: 600;
+     display: block;
+ }
+
+ .footer_social_icon{
+     margin-bottom: 60px;
+ }
+ .footer_social_icon ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 33px;
+ }
+ .footer_social_icon ul li{}
+ .footer_social_icon ul li span svg{
+     display: block;
+ }
+ .footer_copy p {
+    font-size: 14px;
+    line-height: 23px;
+    color: rgb(255 255 255 / 50%);
+    text-align: center;
+}

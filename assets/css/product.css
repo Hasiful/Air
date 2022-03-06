@@ -1,0 +1,288 @@
+.breadcumb{
+    padding: 20px 0px;
+    background-color: var(--bgColor);
+}
+.breadcumb_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcumb_title{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--btnColor);
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+    /* chill */
+
+    .product_details{
+        padding: 50px 0px;
+    }
+    .product_details_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .product_content{
+        width: 100%;
+        order: 1;
+    }
+
+    .product_content_title{
+        margin-bottom: 5px;
+    }
+    .product_content_title p{
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--btnColor);
+    }
+    .product_content_heading{
+
+    }
+    .product_content_heading h1{
+        font-size: 20px;
+        line-height: 33px;
+        color: var(--primaryColor);
+        font-weight: bold;
+    }
+
+    .product_content_reveiw {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .product_content_reveiw ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3px;
+    }
+    .product_content_reveiw ul li span svg {
+        display: block;
+    }
+    .product_content_reveiw_text{
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--primaryColor);
+    }
+
+    .product_content_price{
+        margin: 30px 0px;
+    }
+    .product_old_price{
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--btnColor);
+        text-decoration: line-through;
+        line-height: 24px;
+        display: block;
+    }
+    .offer_price{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+        color: var(--seconDary);
+    }
+
+    .product_select_veriation{}
+    .select_veriatin_title{
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--primaryColor);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .select_veriation_btn_wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .select_veriation_btn{
+        padding: 4px 10px;
+        background-color: var(--bgColor);
+        display: inline-block;
+        cursor: pointer;
+        transition: all linear 0.3s;
+    }
+    .select_veriation_btn:hover{
+        background-color: var(--primaryColor);
+    }
+    .select_veriation_btn a {
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--btnColor);
+        display: block;
+    }
+    .select_veriation_btn:hover.select_veriation_btn a{
+        color: #FFFF;
+    }
+
+    .cartbtn_wish_list{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .product_content_cartBtn{
+        display: inline-block;
+        padding: 7px 25px;
+        background-color: var(--primaryColor);
+    }
+    .product_content_cartBtn a{
+        line-height: 24px;
+        font-size: 14px;
+        color: #FFFF;
+        font-weight: 600;
+        display: block;
+    }
+
+    .product_wishlist{
+        padding: 12px;
+        background-color: var(--bgColor);
+        display: inline-block;
+    }
+    .product_wishlist span svg{
+        display: flex;
+    }
+
+    .product_content_condition{
+        margin-bottom: 30px;
+    }
+    .product_content_condition p{
+        font-size: 12px;
+        line-height: 22px;
+        color: var(--btnColor);
+    }
+    .product_social_icon{}
+    .product_social_icon ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .product_social_icon ul li span svg{
+        display: block;
+    }
+    .social_icon_title{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        color: var(--primaryColor);
+        margin-bottom: 12px;
+    }
+
+
+
+
+
+
+    .product_picture{
+        width: 100%;
+    }
+    .product_picture_wrapper{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .product_details_thumnil {
+        width: 100%;
+        display: flex;
+    }
+    .product_details_thumnil img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    .product_image_slideer {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .product_image_slideer::-webkit-scrollbar{
+        width: 0px;
+    }
+    .product_image_slider_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .first_image {
+        display: contents;
+    }
+    .first_image img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .product_reveiw{
+        margin-top: 60px;
+    }
+    .product_reveiw_title{
+        margin-bottom: 30px;
+    }
+    .product_reveiw_title span{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+    .reveiw_first_title{
+        color: var(--btnColor);
+        margin-right: 40px;
+    }
+    .reveiw_second_title{
+        color: var(--primaryColor);
+    }
+
+
+
+    .product_reveiw_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+    .product_reveiw_item:not(:last-child) {
+        border-bottom: 1px solid var(--bgColor);
+        padding-bottom: 15px;
+    }
+    .product_reveiw_star{
+        margin-bottom: 8px;
+    }
+    .product_reveiw_star ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2px;
+    }
+    .product_reveiw_star ul li span svg{
+        display: block;
+    }
+    .reveiw_clint_name{
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--btnColor);
+        margin-bottom: 15px;
+    }
+    .reveiws_content_text{}
+    .reveiws_content_text p {
+        font-size: 14px;
+        line-height: 24px;
+        color: rgb(0 0 0 / 70%);
+        text-align: left;
+    }
